@@ -14,7 +14,6 @@ Ahmet Yiğit UYSAL <br>
 Umut CAN <br>
 Efe VARDALI <br>
 
-<p align="right">(<a href="#top">Başa geri dön</a>)</p>
 
 ## Sayfalar Hakkında Bilgiler -->
 ### Home: <br>
@@ -27,13 +26,15 @@ Fotoğrafları ve yazan haberleri takımların kendi resmi web sayfalarından al
 
 ### Footballers: <br>
 
-Öncelikle Models altında Footballer adında class oluşturduk. Bu classları yine Models klasörünün içinde bir Footballer.cs dosyası ile atadık. Models altında Footballers class oluşturduk ve içine dataları koyduk. Listele ekranı oluşturarak web formatında ekrana çıktı çıkardık. Bu sayfa içerisinden Premier Lig'den sezonun ilk yarısının en iyi ilk 11 oyuncusunu koyduk. Ziyaret edecek futbol severler için kendi 11 lerini oluşturması adına ekleme, düzeltme ve silme ekranı koyduk. <br>
+Öncelikle Models altında Footballers class oluşturduk ve içine dataları koyduk. Listele ekranı oluşturarak web formatında ekrana çıktı çıkardık. Bu sayfa içerisinden Premier Lig'den sezonun ilk yarısının en iyi ilk 11 oyuncusunu koyduk. Ziyaret edecek futbol severler için kendi 11'lerini oluşturması adına ekleme, düzeltme ve silme ekranı koyduk.
+Herkes kendi En İyi 11'ini oluşturabilir.
+<br>
 
 ### Prediction: <br>
 
 İstenilen csv dosyasını Visual Studio kullanarak datayı okumayı makinaya öğrettik. Bir web projesi oluşturduk ve controllers altında Odev.cs oluşturarak dataları çektik. Daha sonra yeniden Views aldtında Odev klasörü oluşturarak içerisine predict.cshtml oluşturduk. HTML form oluşturarak kullanıcıdan takımların ismini, gol sayılarını, korner sayılarını ve şutlarını kullanıcının girdiği verilerden ev sahibi takımın korner sayısını tahmin ettirdik. <br>
 
-<p align="right">(<a href="#top">Başa geri dön</a>)</p>
+
 
 ## Kaynak -->
 * [StackOverFlow](https://stackoverflow.com/)
